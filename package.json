@@ -1,0 +1,19 @@
+{
+  "name": "texttospeech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon openAitts.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "elevenlabs": "^0.14.0",
+    "openai": "^4.55.5"
+  }
+}
